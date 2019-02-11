@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".menu2"
+    tools:showIn="@layout/fragment_menu_2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            style="@style/Base.V7.Widget.AppCompat.AutoCompleteTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+            android:background="@color/colorInvisible"
+            android:text="Директор\nВиноградова Лариса Анатольевна \n8 (498) 662-39-00"
+            android:textAlignment="viewStart" />
+
+        <Button
+            style="@style/Base.V7.Widget.AppCompat.AutoCompleteTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+            android:background="@color/colorInvisible"
+            android:backgroundTint="@color/colorInvisible"
+            android:text="Заместитель директора по УПР\nКоршунова Елена Анатольевна\n8 (498) 662-39-04"
+            android:textAlignment="viewStart" />
+
+        <Button
+            style="@style/Base.V7.Widget.AppCompat.AutoCompleteTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+            android:background="@color/colorInvisible"
+            android:backgroundTint="@color/colorInvisible"
+            android:text="Заместитель директора по УВР\nМихайлова Людмила Ивановна\n8 (498) 662-39-05"
+            android:textAlignment="viewStart" />
+
+
+        <Button
+            style="@style/Base.V7.Widget.AppCompat.AutoCompleteTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+            android:background="@color/colorInvisible"
+            android:backgroundTint="@color/colorInvisible"
+            android:text="Заместитель директора по УР\nКраснобельмова Ирина Вячеславовна\n8 (498) 662-39-05"
+            android:textAlignment="viewStart" />
+
+
+        <Button
+            style="@style/Base.V7.Widget.AppCompat.AutoCompleteTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+            android:background="@color/colorInvisible"
+            android:backgroundTint="@color/colorInvisible"
+            android:text="Заместитель директора по безопасности\nЛемехов Дмитрий Борисович\n8 (496) 57 1-88-36"
+            android:textAlignment="viewStart" />
+
+
+        <Button
+            style="@style/Base.V7.Widget.AppCompat.AutoCompleteTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+            android:background="@color/colorInvisible"
+            android:backgroundTint="@color/colorInvisible"
+            android:text="Заместитель директора по экономике и госзакупкам\nМитькина  Полина Андреевна\n8 (498) 660-83-24"
+            android:textAlignment="viewStart" />
+
+
+        <Button
+            style="@style/Base.V7.Widget.AppCompat.AutoCompleteTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+            android:background="@color/colorInvisible"
+            android:backgroundTint="@color/colorInvisible"
+            android:text="Заместитель директора по АХЧ\nЖитков Владимир Юрьевич\n8 (496) 571-84-44"
+            android:textAlignment="viewStart" />
+
+
+        <Button
+            style="@style/Base.V7.Widget.AppCompat.AutoCompleteTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+            android:background="@color/colorInvisible"
+            android:backgroundTint="@color/colorInvisible"
+            android:text="Заместитель директора по общим вопросам\nСтолярская Лариса Анатольевна\n8 (498) 662-39-13"
+            android:textAlignment="viewStart" />
+
+
+
+
+
+
+
+    </LinearLayout>
+
+</android.support.v4.widget.NestedScrollView>

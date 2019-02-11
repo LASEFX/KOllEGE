@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="ДОБРО ПОЖАЛОВАТЬ!"
+            android:textAlignment="center"
+            android:textColor="#000"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:text="Миссия колледжа состоит в построении образовательного процесса на принципах опережающего образования, определении в качестве главного результата достижения социальной и профессиональной компетентности выпускника, адекватной современным требованиям общества и экономики. Цель политики колледжа в области обеспечения качества подготовки специалистов и квалифицированных рабочих, служащих — определить достижение высокого рейтинга выпускника через удовлетворение потребности личности в образовательных услугах, обеспечивающих ее профессиональное и социальное самоопределение.  "
+            android:textColor="#000"
+            android:textSize="17dp" />
+    </LinearLayout>
+
+</android.support.v4.widget.NestedScrollView>
